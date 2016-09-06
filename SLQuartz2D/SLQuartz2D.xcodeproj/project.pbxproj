@@ -18,6 +18,13 @@
 		C432C8B01D7E69E8007D9CE8 /* SLPAFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C432C8AF1D7E69E8007D9CE8 /* SLPAFViewController.m */; };
 		C432C8B31D7E6B36007D9CE8 /* SLView.m in Sources */ = {isa = PBXBuildFile; fileRef = C432C8B21D7E6B36007D9CE8 /* SLView.m */; };
 		C432C8B61D7E6BCD007D9CE8 /* SLRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C432C8B51D7E6BCD007D9CE8 /* SLRefreshViewController.m */; };
+		C4749BFC1D7EA8D3005F144C /* SLDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4749BFB1D7EA8D3005F144C /* SLDrawViewController.m */; };
+		C4749BFF1D7EA8E9005F144C /* SLDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4749BFE1D7EA8E9005F144C /* SLDrawView.m */; };
+		C4749C021D7EA911005F144C /* SLDrawToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4749C011D7EA911005F144C /* SLDrawToolView.m */; };
+		C4749C051D7EA939005F144C /* SLDrawSelectColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4749C041D7EA939005F144C /* SLDrawSelectColorView.m */; };
+		C4749C081D7EA950005F144C /* SLDrawSelectLineWidthView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4749C071D7EA950005F144C /* SLDrawSelectLineWidthView.m */; };
+		C4749C0B1D7EAA1D005F144C /* SLDrawPath.m in Sources */ = {isa = PBXBuildFile; fileRef = C4749C0A1D7EAA1D005F144C /* SLDrawPath.m */; };
+		C4749C0E1D7EB1C5005F144C /* SLSelectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C4749C0D1D7EB1C5005F144C /* SLSelectButton.m */; };
 		C4EB333D1D7D68BB0034D216 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB333C1D7D68BB0034D216 /* main.m */; };
 		C4EB33401D7D68BB0034D216 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB333F1D7D68BB0034D216 /* AppDelegate.m */; };
 		C4EB33431D7D68BB0034D216 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB33421D7D68BB0034D216 /* ViewController.m */; };
@@ -70,6 +77,20 @@
 		C432C8B21D7E6B36007D9CE8 /* SLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLView.m; sourceTree = "<group>"; };
 		C432C8B41D7E6BCD007D9CE8 /* SLRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLRefreshViewController.h; sourceTree = "<group>"; };
 		C432C8B51D7E6BCD007D9CE8 /* SLRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLRefreshViewController.m; sourceTree = "<group>"; };
+		C4749BFA1D7EA8D3005F144C /* SLDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDrawViewController.h; sourceTree = "<group>"; };
+		C4749BFB1D7EA8D3005F144C /* SLDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDrawViewController.m; sourceTree = "<group>"; };
+		C4749BFD1D7EA8E9005F144C /* SLDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDrawView.h; sourceTree = "<group>"; };
+		C4749BFE1D7EA8E9005F144C /* SLDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDrawView.m; sourceTree = "<group>"; };
+		C4749C001D7EA911005F144C /* SLDrawToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDrawToolView.h; sourceTree = "<group>"; };
+		C4749C011D7EA911005F144C /* SLDrawToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDrawToolView.m; sourceTree = "<group>"; };
+		C4749C031D7EA939005F144C /* SLDrawSelectColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDrawSelectColorView.h; sourceTree = "<group>"; };
+		C4749C041D7EA939005F144C /* SLDrawSelectColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDrawSelectColorView.m; sourceTree = "<group>"; };
+		C4749C061D7EA950005F144C /* SLDrawSelectLineWidthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDrawSelectLineWidthView.h; sourceTree = "<group>"; };
+		C4749C071D7EA950005F144C /* SLDrawSelectLineWidthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDrawSelectLineWidthView.m; sourceTree = "<group>"; };
+		C4749C091D7EAA1D005F144C /* SLDrawPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDrawPath.h; sourceTree = "<group>"; };
+		C4749C0A1D7EAA1D005F144C /* SLDrawPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDrawPath.m; sourceTree = "<group>"; };
+		C4749C0C1D7EB1C5005F144C /* SLSelectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSelectButton.h; sourceTree = "<group>"; };
+		C4749C0D1D7EB1C5005F144C /* SLSelectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSelectButton.m; sourceTree = "<group>"; };
 		C4EB33381D7D68BB0034D216 /* SLQuartz2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLQuartz2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EB333C1D7D68BB0034D216 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4EB333E1D7D68BB0034D216 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +138,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C4749BF81D7EA82B005F144C /* 画板 */ = {
+			isa = PBXGroup;
+			children = (
+				C4749BF91D7EA8B8005F144C /* DrawView */,
+				C4749BFA1D7EA8D3005F144C /* SLDrawViewController.h */,
+				C4749BFB1D7EA8D3005F144C /* SLDrawViewController.m */,
+			);
+			path = "画板";
+			sourceTree = "<group>";
+		};
+		C4749BF91D7EA8B8005F144C /* DrawView */ = {
+			isa = PBXGroup;
+			children = (
+				C4749BFD1D7EA8E9005F144C /* SLDrawView.h */,
+				C4749BFE1D7EA8E9005F144C /* SLDrawView.m */,
+				C4749C001D7EA911005F144C /* SLDrawToolView.h */,
+				C4749C011D7EA911005F144C /* SLDrawToolView.m */,
+				C4749C031D7EA939005F144C /* SLDrawSelectColorView.h */,
+				C4749C041D7EA939005F144C /* SLDrawSelectColorView.m */,
+				C4749C061D7EA950005F144C /* SLDrawSelectLineWidthView.h */,
+				C4749C071D7EA950005F144C /* SLDrawSelectLineWidthView.m */,
+				C4749C091D7EAA1D005F144C /* SLDrawPath.h */,
+				C4749C0A1D7EAA1D005F144C /* SLDrawPath.m */,
+				C4749C0C1D7EB1C5005F144C /* SLSelectButton.h */,
+				C4749C0D1D7EB1C5005F144C /* SLSelectButton.m */,
+			);
+			path = DrawView;
+			sourceTree = "<group>";
+		};
 		C4EB332F1D7D68BB0034D216 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +190,7 @@
 		C4EB333A1D7D68BB0034D216 /* SLQuartz2D */ = {
 			isa = PBXGroup;
 			children = (
+				C4749BF81D7EA82B005F144C /* 画板 */,
 				C4EB337A1D7D7AFF0034D216 /* 视图刷新 */,
 				C4EB33791D7D7AF00034D216 /* PDF文件 */,
 				C4EB33781D7D7AD10034D216 /* 圆角按钮 */,
@@ -393,18 +444,25 @@
 			files = (
 				C432C8AA1D7E64FB007D9CE8 /* SLButton.m in Sources */,
 				C432C8B61D7E6BCD007D9CE8 /* SLRefreshViewController.m in Sources */,
+				C4749BFC1D7EA8D3005F144C /* SLDrawViewController.m in Sources */,
 				C4EB33711D7D693D0034D216 /* SLBaseView.m in Sources */,
+				C4749C081D7EA950005F144C /* SLDrawSelectLineWidthView.m in Sources */,
 				C432C89E1D7D9099007D9CE8 /* SLStarViewController.m in Sources */,
 				C432C8B01D7E69E8007D9CE8 /* SLPAFViewController.m in Sources */,
+				C4749C021D7EA911005F144C /* SLDrawToolView.m in Sources */,
 				C432C8A41D7E61A5007D9CE8 /* SLGrradientView.m in Sources */,
 				C4EB33431D7D68BB0034D216 /* ViewController.m in Sources */,
+				C4749C051D7EA939005F144C /* SLDrawSelectColorView.m in Sources */,
 				C432C89B1D7D8BCC007D9CE8 /* SLWaterMaskController.m in Sources */,
 				C432C8A71D7E6362007D9CE8 /* SLGradientViewController.m in Sources */,
 				C4EB33401D7D68BB0034D216 /* AppDelegate.m in Sources */,
 				C432C8981D7D849A007D9CE8 /* UIImage+WaterMask.m in Sources */,
+				C4749C0B1D7EAA1D005F144C /* SLDrawPath.m in Sources */,
 				C432C8A11D7D90E8007D9CE8 /* SLBaseViewController.m in Sources */,
+				C4749BFF1D7EA8E9005F144C /* SLDrawView.m in Sources */,
 				C4EB33751D7D76430034D216 /* SLStarView.m in Sources */,
 				C4EB333D1D7D68BB0034D216 /* main.m in Sources */,
+				C4749C0E1D7EB1C5005F144C /* SLSelectButton.m in Sources */,
 				C432C8AD1D7E682A007D9CE8 /* SLRoundViewController.m in Sources */,
 				C432C8B31D7E6B36007D9CE8 /* SLView.m in Sources */,
 			);

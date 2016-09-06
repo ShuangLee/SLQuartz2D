@@ -14,6 +14,7 @@
 #import "SLRoundViewController.h"
 #import "SLPAFViewController.h"
 #import "SLRefreshViewController.h"
+#import "SLDrawViewController.h"
 
 
 static NSString * const AppleItemsIdentifier =@"ItemsIdentifier";
@@ -24,7 +25,7 @@ static NSString * const AppleItemsIdentifier =@"ItemsIdentifier";
 
 @implementation ViewController
 - (NSArray *)titles {
-    return @[@"基本绘图",@"五角星⭐️",@"图像水印",@"渐变",@"圆角按钮",@"PDF文件",@"视图刷新"];
+    return @[@"基本绘图",@"五角星⭐️",@"图像水印",@"渐变",@"圆角按钮",@"PDF文件",@"视图刷新",@"画板"];
 }
 
 - (UITableView *)tableView {
@@ -86,6 +87,9 @@ static NSString * const AppleItemsIdentifier =@"ItemsIdentifier";
             break;
         case 6:
             [self.navigationController pushViewController:[[SLRefreshViewController alloc] init] animated:YES];
+            break;
+        case 7:
+            [self.navigationController pushViewController:[[SLDrawViewController alloc] init] animated:YES];
             break;
             
         default:
