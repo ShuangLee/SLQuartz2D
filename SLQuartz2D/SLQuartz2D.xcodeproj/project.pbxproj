@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C432C8981D7D849A007D9CE8 /* UIImage+WaterMask.m in Sources */ = {isa = PBXBuildFile; fileRef = C432C8971D7D849A007D9CE8 /* UIImage+WaterMask.m */; };
+		C432C89B1D7D8BCC007D9CE8 /* SLWaterMaskController.m in Sources */ = {isa = PBXBuildFile; fileRef = C432C89A1D7D8BCC007D9CE8 /* SLWaterMaskController.m */; };
+		C432C89E1D7D9099007D9CE8 /* SLStarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C432C89D1D7D9099007D9CE8 /* SLStarViewController.m */; };
+		C432C8A11D7D90E8007D9CE8 /* SLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C432C8A01D7D90E8007D9CE8 /* SLBaseViewController.m */; };
+		C432C8A41D7E61A5007D9CE8 /* SLGrradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = C432C8A31D7E61A5007D9CE8 /* SLGrradientView.m */; };
+		C432C8A71D7E6362007D9CE8 /* SLGradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C432C8A61D7E6362007D9CE8 /* SLGradientViewController.m */; };
+		C432C8AA1D7E64FB007D9CE8 /* SLButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C432C8A91D7E64FB007D9CE8 /* SLButton.m */; };
+		C432C8AD1D7E682A007D9CE8 /* SLRoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C432C8AC1D7E682A007D9CE8 /* SLRoundViewController.m */; };
+		C432C8B01D7E69E8007D9CE8 /* SLPAFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C432C8AF1D7E69E8007D9CE8 /* SLPAFViewController.m */; };
+		C432C8B31D7E6B36007D9CE8 /* SLView.m in Sources */ = {isa = PBXBuildFile; fileRef = C432C8B21D7E6B36007D9CE8 /* SLView.m */; };
+		C432C8B61D7E6BCD007D9CE8 /* SLRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C432C8B51D7E6BCD007D9CE8 /* SLRefreshViewController.m */; };
+		C4EB333D1D7D68BB0034D216 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB333C1D7D68BB0034D216 /* main.m */; };
+		C4EB33401D7D68BB0034D216 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB333F1D7D68BB0034D216 /* AppDelegate.m */; };
+		C4EB33431D7D68BB0034D216 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB33421D7D68BB0034D216 /* ViewController.m */; };
+		C4EB33461D7D68BB0034D216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EB33441D7D68BB0034D216 /* Main.storyboard */; };
+		C4EB33481D7D68BB0034D216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EB33471D7D68BB0034D216 /* Assets.xcassets */; };
+		C4EB334B1D7D68BB0034D216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EB33491D7D68BB0034D216 /* LaunchScreen.storyboard */; };
+		C4EB33561D7D68BB0034D216 /* SLQuartz2DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB33551D7D68BB0034D216 /* SLQuartz2DTests.m */; };
+		C4EB33611D7D68BB0034D216 /* SLQuartz2DUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB33601D7D68BB0034D216 /* SLQuartz2DUITests.m */; };
+		C4EB33711D7D693D0034D216 /* SLBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB33701D7D693D0034D216 /* SLBaseView.m */; };
+		C4EB33751D7D76430034D216 /* SLStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB33741D7D76430034D216 /* SLStarView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4EB33521D7D68BB0034D216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EB33301D7D68BB0034D216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EB33371D7D68BB0034D216;
+			remoteInfo = SLQuartz2D;
+		};
+		C4EB335D1D7D68BB0034D216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EB33301D7D68BB0034D216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EB33371D7D68BB0034D216;
+			remoteInfo = SLQuartz2D;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C432C8961D7D849A007D9CE8 /* UIImage+WaterMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WaterMask.h"; sourceTree = "<group>"; };
+		C432C8971D7D849A007D9CE8 /* UIImage+WaterMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WaterMask.m"; sourceTree = "<group>"; };
+		C432C8991D7D8BCC007D9CE8 /* SLWaterMaskController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLWaterMaskController.h; sourceTree = "<group>"; };
+		C432C89A1D7D8BCC007D9CE8 /* SLWaterMaskController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLWaterMaskController.m; sourceTree = "<group>"; };
+		C432C89C1D7D9099007D9CE8 /* SLStarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLStarViewController.h; sourceTree = "<group>"; };
+		C432C89D1D7D9099007D9CE8 /* SLStarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLStarViewController.m; sourceTree = "<group>"; };
+		C432C89F1D7D90E8007D9CE8 /* SLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBaseViewController.h; sourceTree = "<group>"; };
+		C432C8A01D7D90E8007D9CE8 /* SLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBaseViewController.m; sourceTree = "<group>"; };
+		C432C8A21D7E61A5007D9CE8 /* SLGrradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGrradientView.h; sourceTree = "<group>"; };
+		C432C8A31D7E61A5007D9CE8 /* SLGrradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGrradientView.m; sourceTree = "<group>"; };
+		C432C8A51D7E6362007D9CE8 /* SLGradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLGradientViewController.h; sourceTree = "<group>"; };
+		C432C8A61D7E6362007D9CE8 /* SLGradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLGradientViewController.m; sourceTree = "<group>"; };
+		C432C8A81D7E64FB007D9CE8 /* SLButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLButton.h; sourceTree = "<group>"; };
+		C432C8A91D7E64FB007D9CE8 /* SLButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLButton.m; sourceTree = "<group>"; };
+		C432C8AB1D7E682A007D9CE8 /* SLRoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLRoundViewController.h; sourceTree = "<group>"; };
+		C432C8AC1D7E682A007D9CE8 /* SLRoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLRoundViewController.m; sourceTree = "<group>"; };
+		C432C8AE1D7E69E8007D9CE8 /* SLPAFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLPAFViewController.h; sourceTree = "<group>"; };
+		C432C8AF1D7E69E8007D9CE8 /* SLPAFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLPAFViewController.m; sourceTree = "<group>"; };
+		C432C8B11D7E6B36007D9CE8 /* SLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLView.h; sourceTree = "<group>"; };
+		C432C8B21D7E6B36007D9CE8 /* SLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLView.m; sourceTree = "<group>"; };
+		C432C8B41D7E6BCD007D9CE8 /* SLRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLRefreshViewController.h; sourceTree = "<group>"; };
+		C432C8B51D7E6BCD007D9CE8 /* SLRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLRefreshViewController.m; sourceTree = "<group>"; };
+		C4EB33381D7D68BB0034D216 /* SLQuartz2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLQuartz2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EB333C1D7D68BB0034D216 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4EB333E1D7D68BB0034D216 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4EB333F1D7D68BB0034D216 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4EB33411D7D68BB0034D216 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4EB33421D7D68BB0034D216 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C4EB33451D7D68BB0034D216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4EB33471D7D68BB0034D216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4EB334A1D7D68BB0034D216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4EB334C1D7D68BB0034D216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EB33511D7D68BB0034D216 /* SLQuartz2DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLQuartz2DTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EB33551D7D68BB0034D216 /* SLQuartz2DTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLQuartz2DTests.m; sourceTree = "<group>"; };
+		C4EB33571D7D68BB0034D216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EB335C1D7D68BB0034D216 /* SLQuartz2DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLQuartz2DUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EB33601D7D68BB0034D216 /* SLQuartz2DUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLQuartz2DUITests.m; sourceTree = "<group>"; };
+		C4EB33621D7D68BB0034D216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EB336F1D7D693D0034D216 /* SLBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBaseView.h; sourceTree = "<group>"; };
+		C4EB33701D7D693D0034D216 /* SLBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBaseView.m; sourceTree = "<group>"; };
+		C4EB33731D7D76430034D216 /* SLStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLStarView.h; sourceTree = "<group>"; };
+		C4EB33741D7D76430034D216 /* SLStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLStarView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4EB33351D7D68BB0034D216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EB334E1D7D68BB0034D216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EB33591D7D68BB0034D216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4EB332F1D7D68BB0034D216 = {
+			isa = PBXGroup;
+			children = (
+				C4EB333A1D7D68BB0034D216 /* SLQuartz2D */,
+				C4EB33541D7D68BB0034D216 /* SLQuartz2DTests */,
+				C4EB335F1D7D68BB0034D216 /* SLQuartz2DUITests */,
+				C4EB33391D7D68BB0034D216 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4EB33391D7D68BB0034D216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB33381D7D68BB0034D216 /* SLQuartz2D.app */,
+				C4EB33511D7D68BB0034D216 /* SLQuartz2DTests.xctest */,
+				C4EB335C1D7D68BB0034D216 /* SLQuartz2DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4EB333A1D7D68BB0034D216 /* SLQuartz2D */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB337A1D7D7AFF0034D216 /* 视图刷新 */,
+				C4EB33791D7D7AF00034D216 /* PDF文件 */,
+				C4EB33781D7D7AD10034D216 /* 圆角按钮 */,
+				C4EB33771D7D7ABB0034D216 /* 渐变 */,
+				C4EB33761D7D7AAE0034D216 /* 图像水印 */,
+				C4EB33721D7D76340034D216 /* 五角星⭐️ */,
+				C4EB336E1D7D69050034D216 /* 基本绘图 */,
+				C4EB333E1D7D68BB0034D216 /* AppDelegate.h */,
+				C4EB333F1D7D68BB0034D216 /* AppDelegate.m */,
+				C4EB33411D7D68BB0034D216 /* ViewController.h */,
+				C4EB33421D7D68BB0034D216 /* ViewController.m */,
+				C4EB33441D7D68BB0034D216 /* Main.storyboard */,
+				C4EB33471D7D68BB0034D216 /* Assets.xcassets */,
+				C4EB33491D7D68BB0034D216 /* LaunchScreen.storyboard */,
+				C4EB334C1D7D68BB0034D216 /* Info.plist */,
+				C4EB333B1D7D68BB0034D216 /* Supporting Files */,
+			);
+			path = SLQuartz2D;
+			sourceTree = "<group>";
+		};
+		C4EB333B1D7D68BB0034D216 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB333C1D7D68BB0034D216 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4EB33541D7D68BB0034D216 /* SLQuartz2DTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB33551D7D68BB0034D216 /* SLQuartz2DTests.m */,
+				C4EB33571D7D68BB0034D216 /* Info.plist */,
+			);
+			path = SLQuartz2DTests;
+			sourceTree = "<group>";
+		};
+		C4EB335F1D7D68BB0034D216 /* SLQuartz2DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB33601D7D68BB0034D216 /* SLQuartz2DUITests.m */,
+				C4EB33621D7D68BB0034D216 /* Info.plist */,
+			);
+			path = SLQuartz2DUITests;
+			sourceTree = "<group>";
+		};
+		C4EB336E1D7D69050034D216 /* 基本绘图 */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB336F1D7D693D0034D216 /* SLBaseView.h */,
+				C4EB33701D7D693D0034D216 /* SLBaseView.m */,
+				C432C89F1D7D90E8007D9CE8 /* SLBaseViewController.h */,
+				C432C8A01D7D90E8007D9CE8 /* SLBaseViewController.m */,
+			);
+			path = "基本绘图";
+			sourceTree = "<group>";
+		};
+		C4EB33721D7D76340034D216 /* 五角星⭐️ */ = {
+			isa = PBXGroup;
+			children = (
+				C4EB33731D7D76430034D216 /* SLStarView.h */,
+				C4EB33741D7D76430034D216 /* SLStarView.m */,
+				C432C89C1D7D9099007D9CE8 /* SLStarViewController.h */,
+				C432C89D1D7D9099007D9CE8 /* SLStarViewController.m */,
+			);
+			path = "五角星⭐️";
+			sourceTree = "<group>";
+		};
+		C4EB33761D7D7AAE0034D216 /* 图像水印 */ = {
+			isa = PBXGroup;
+			children = (
+				C432C8961D7D849A007D9CE8 /* UIImage+WaterMask.h */,
+				C432C8971D7D849A007D9CE8 /* UIImage+WaterMask.m */,
+				C432C8991D7D8BCC007D9CE8 /* SLWaterMaskController.h */,
+				C432C89A1D7D8BCC007D9CE8 /* SLWaterMaskController.m */,
+			);
+			path = "图像水印";
+			sourceTree = "<group>";
+		};
+		C4EB33771D7D7ABB0034D216 /* 渐变 */ = {
+			isa = PBXGroup;
+			children = (
+				C432C8A21D7E61A5007D9CE8 /* SLGrradientView.h */,
+				C432C8A31D7E61A5007D9CE8 /* SLGrradientView.m */,
+				C432C8A51D7E6362007D9CE8 /* SLGradientViewController.h */,
+				C432C8A61D7E6362007D9CE8 /* SLGradientViewController.m */,
+			);
+			path = "渐变";
+			sourceTree = "<group>";
+		};
+		C4EB33781D7D7AD10034D216 /* 圆角按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				C432C8A81D7E64FB007D9CE8 /* SLButton.h */,
+				C432C8A91D7E64FB007D9CE8 /* SLButton.m */,
+				C432C8AB1D7E682A007D9CE8 /* SLRoundViewController.h */,
+				C432C8AC1D7E682A007D9CE8 /* SLRoundViewController.m */,
+			);
+			path = "圆角按钮";
+			sourceTree = "<group>";
+		};
+		C4EB33791D7D7AF00034D216 /* PDF文件 */ = {
+			isa = PBXGroup;
+			children = (
+				C432C8AE1D7E69E8007D9CE8 /* SLPAFViewController.h */,
+				C432C8AF1D7E69E8007D9CE8 /* SLPAFViewController.m */,
+			);
+			path = "PDF文件";
+			sourceTree = "<group>";
+		};
+		C4EB337A1D7D7AFF0034D216 /* 视图刷新 */ = {
+			isa = PBXGroup;
+			children = (
+				C432C8B11D7E6B36007D9CE8 /* SLView.h */,
+				C432C8B21D7E6B36007D9CE8 /* SLView.m */,
+				C432C8B41D7E6BCD007D9CE8 /* SLRefreshViewController.h */,
+				C432C8B51D7E6BCD007D9CE8 /* SLRefreshViewController.m */,
+			);
+			path = "视图刷新";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4EB33371D7D68BB0034D216 /* SLQuartz2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EB33651D7D68BB0034D216 /* Build configuration list for PBXNativeTarget "SLQuartz2D" */;
+			buildPhases = (
+				C4EB33341D7D68BB0034D216 /* Sources */,
+				C4EB33351D7D68BB0034D216 /* Frameworks */,
+				C4EB33361D7D68BB0034D216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLQuartz2D;
+			productName = SLQuartz2D;
+			productReference = C4EB33381D7D68BB0034D216 /* SLQuartz2D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4EB33501D7D68BB0034D216 /* SLQuartz2DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EB33681D7D68BB0034D216 /* Build configuration list for PBXNativeTarget "SLQuartz2DTests" */;
+			buildPhases = (
+				C4EB334D1D7D68BB0034D216 /* Sources */,
+				C4EB334E1D7D68BB0034D216 /* Frameworks */,
+				C4EB334F1D7D68BB0034D216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EB33531D7D68BB0034D216 /* PBXTargetDependency */,
+			);
+			name = SLQuartz2DTests;
+			productName = SLQuartz2DTests;
+			productReference = C4EB33511D7D68BB0034D216 /* SLQuartz2DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4EB335B1D7D68BB0034D216 /* SLQuartz2DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EB336B1D7D68BB0034D216 /* Build configuration list for PBXNativeTarget "SLQuartz2DUITests" */;
+			buildPhases = (
+				C4EB33581D7D68BB0034D216 /* Sources */,
+				C4EB33591D7D68BB0034D216 /* Frameworks */,
+				C4EB335A1D7D68BB0034D216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EB335E1D7D68BB0034D216 /* PBXTargetDependency */,
+			);
+			name = SLQuartz2DUITests;
+			productName = SLQuartz2DUITests;
+			productReference = C4EB335C1D7D68BB0034D216 /* SLQuartz2DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4EB33301D7D68BB0034D216 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Ls;
+				TargetAttributes = {
+					C4EB33371D7D68BB0034D216 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					C4EB33501D7D68BB0034D216 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C4EB33371D7D68BB0034D216;
+					};
+					C4EB335B1D7D68BB0034D216 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = C4EB33371D7D68BB0034D216;
+					};
+				};
+			};
+			buildConfigurationList = C4EB33331D7D68BB0034D216 /* Build configuration list for PBXProject "SLQuartz2D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4EB332F1D7D68BB0034D216;
+			productRefGroup = C4EB33391D7D68BB0034D216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4EB33371D7D68BB0034D216 /* SLQuartz2D */,
+				C4EB33501D7D68BB0034D216 /* SLQuartz2DTests */,
+				C4EB335B1D7D68BB0034D216 /* SLQuartz2DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4EB33361D7D68BB0034D216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EB334B1D7D68BB0034D216 /* LaunchScreen.storyboard in Resources */,
+				C4EB33481D7D68BB0034D216 /* Assets.xcassets in Resources */,
+				C4EB33461D7D68BB0034D216 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EB334F1D7D68BB0034D216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EB335A1D7D68BB0034D216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4EB33341D7D68BB0034D216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C432C8AA1D7E64FB007D9CE8 /* SLButton.m in Sources */,
+				C432C8B61D7E6BCD007D9CE8 /* SLRefreshViewController.m in Sources */,
+				C4EB33711D7D693D0034D216 /* SLBaseView.m in Sources */,
+				C432C89E1D7D9099007D9CE8 /* SLStarViewController.m in Sources */,
+				C432C8B01D7E69E8007D9CE8 /* SLPAFViewController.m in Sources */,
+				C432C8A41D7E61A5007D9CE8 /* SLGrradientView.m in Sources */,
+				C4EB33431D7D68BB0034D216 /* ViewController.m in Sources */,
+				C432C89B1D7D8BCC007D9CE8 /* SLWaterMaskController.m in Sources */,
+				C432C8A71D7E6362007D9CE8 /* SLGradientViewController.m in Sources */,
+				C4EB33401D7D68BB0034D216 /* AppDelegate.m in Sources */,
+				C432C8981D7D849A007D9CE8 /* UIImage+WaterMask.m in Sources */,
+				C432C8A11D7D90E8007D9CE8 /* SLBaseViewController.m in Sources */,
+				C4EB33751D7D76430034D216 /* SLStarView.m in Sources */,
+				C4EB333D1D7D68BB0034D216 /* main.m in Sources */,
+				C432C8AD1D7E682A007D9CE8 /* SLRoundViewController.m in Sources */,
+				C432C8B31D7E6B36007D9CE8 /* SLView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EB334D1D7D68BB0034D216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EB33561D7D68BB0034D216 /* SLQuartz2DTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EB33581D7D68BB0034D216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EB33611D7D68BB0034D216 /* SLQuartz2DUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4EB33531D7D68BB0034D216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EB33371D7D68BB0034D216 /* SLQuartz2D */;
+			targetProxy = C4EB33521D7D68BB0034D216 /* PBXContainerItemProxy */;
+		};
+		C4EB335E1D7D68BB0034D216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EB33371D7D68BB0034D216 /* SLQuartz2D */;
+			targetProxy = C4EB335D1D7D68BB0034D216 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4EB33441D7D68BB0034D216 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EB33451D7D68BB0034D216 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4EB33491D7D68BB0034D216 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EB334A1D7D68BB0034D216 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4EB33631D7D68BB0034D216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4EB33641D7D68BB0034D216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EB33661D7D68BB0034D216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SLQuartz2D/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SLQuartz2D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4EB33671D7D68BB0034D216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SLQuartz2D/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SLQuartz2D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4EB33691D7D68BB0034D216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLQuartz2DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SLQuartz2DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLQuartz2D.app/SLQuartz2D";
+			};
+			name = Debug;
+		};
+		C4EB336A1D7D68BB0034D216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLQuartz2DTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SLQuartz2DTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLQuartz2D.app/SLQuartz2D";
+			};
+			name = Release;
+		};
+		C4EB336C1D7D68BB0034D216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLQuartz2DUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SLQuartz2DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLQuartz2D;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C4EB336D1D7D68BB0034D216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLQuartz2DUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sl.SLQuartz2DUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLQuartz2D;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4EB33331D7D68BB0034D216 /* Build configuration list for PBXProject "SLQuartz2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EB33631D7D68BB0034D216 /* Debug */,
+				C4EB33641D7D68BB0034D216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EB33651D7D68BB0034D216 /* Build configuration list for PBXNativeTarget "SLQuartz2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EB33661D7D68BB0034D216 /* Debug */,
+				C4EB33671D7D68BB0034D216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EB33681D7D68BB0034D216 /* Build configuration list for PBXNativeTarget "SLQuartz2DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EB33691D7D68BB0034D216 /* Debug */,
+				C4EB336A1D7D68BB0034D216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EB336B1D7D68BB0034D216 /* Build configuration list for PBXNativeTarget "SLQuartz2DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EB336C1D7D68BB0034D216 /* Debug */,
+				C4EB336D1D7D68BB0034D216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4EB33301D7D68BB0034D216 /* Project object */;
+}
